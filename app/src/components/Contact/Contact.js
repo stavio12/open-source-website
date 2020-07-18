@@ -41,8 +41,7 @@ function Contact() {
               <h6 className="text-muted">1PM - 2PM, Mon to Fri</h6>
 
               <h5>Contact</h5>
-
- className="text-muted"              <h6>
+              <h6>
                 <a href="mailto:puranjaycorporations@gmail.com" className="text-muted">
                   puranjaycorporations@gmail.com
                 </a>
@@ -68,13 +67,16 @@ function Contact() {
               <h6>CEO</h6>
               <hr />
               <h6>
-                <a className="text-muted" href="mailto:ceo@business.com">ceo@business.com</a>
+                <a className="text-muted" href="mailto:ceo@business.com">
+                  ceo@business.com
+                </a>
               </h6>
               <h6>
-                <a href="tel:+12564587458" className="text-muted">123456789</a>
+                <a href="tel:+12564587458" className="text-muted">
+                  123456789
+                </a>
               </h6>
             </div>
-
 
             <div className="col-12  col-md-4">
               <img src="https://via.placeholder.com/350x150" className="img-thumbnail" alt="" srcset="" />
@@ -82,14 +84,16 @@ function Contact() {
               <h6>CEO</h6>
               <hr />
               <h6>
-                <a className="text-muted" href="mailto:ceo@business.com">ceo@business.com</a>
+                <a className="text-muted" href="mailto:ceo@business.com">
+                  ceo@business.com
+                </a>
               </h6>
               <h6>
-                <a href="tel:+12564587458" className="text-muted">123456789</a>
+                <a href="tel:+12564587458" className="text-muted">
+                  123456789
+                </a>
               </h6>
             </div>
-
-
 
             <div className="col-12  col-md-4">
               <img src="https://via.placeholder.com/350x150" className="img-thumbnail" alt="" srcset="" />
@@ -97,15 +101,17 @@ function Contact() {
               <h6>CEO</h6>
               <hr />
               <h6>
-                <a className="text-muted" href="mailto:ceo@business.com">ceo@business.com</a>
+                <a className="text-muted" href="mailto:ceo@business.com">
+                  ceo@business.com
+                </a>
               </h6>
               <h6>
-                <a href="tel:+12564587458" className="text-muted">123456789</a>
+                <a href="tel:+12564587458" className="text-muted">
+                  123456789
+                </a>
               </h6>
             </div>
-
           </div>
-          
         </div>
       </div>
     </>
