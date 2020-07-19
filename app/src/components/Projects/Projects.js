@@ -16,29 +16,29 @@ function Projects() {
         </div>
 
         <div className="pb-5 mb-5">
-          <a href="#">
-            <img src="https://uploads-ssl.webflow.com/5f0d1d4f50b496667d7bd954/5f0d1d4fa053f0f7d0f21347_portfolio%201%20-%20wide.svg" class="img-fluid" alt="Responsive image" />
+          <a>
+            <img src="https://uploads-ssl.webflow.com/5f0d1d4f50b496667d7bd954/5f0d1d4fa053f0f7d0f21347_portfolio%201%20-%20wide.svg" className="img-fluid" alt="Responsive image" />
           </a>
           <h4 className="text-center">
-            <a href="#">Project #1</a> <br /> <small>Art direction</small>
+            <a>Project #1</a> <br /> <small>Art direction</small>
           </h4>
         </div>
 
         <div className="pb-5 mb-5">
-          <a href="#">
-            <img src="https://uploads-ssl.webflow.com/5f0d1d4f50b496667d7bd954/5f0d1d4fa053f06b22f21348_portfolio%203%20-%20wide.svg" class="img-fluid" alt="Responsive image" />
+          <a>
+            <img src="https://uploads-ssl.webflow.com/5f0d1d4f50b496667d7bd954/5f0d1d4fa053f06b22f21348_portfolio%203%20-%20wide.svg" className="img-fluid" alt="Responsive image" />
           </a>
           <h4 className="text-center">
-            <a href="#">Project #2</a> <br /> <small>Product Design</small>
+            <a>Project #2</a> <br /> <small>Product Design</small>
           </h4>
         </div>
 
         <div className="pb-5 mb-5">
-          <a href="#">
-            <img src="https://uploads-ssl.webflow.com/5f0d1d4f50b496667d7bd954/5f0d1d4fa053f0fa88f21342_portfolio%202%20-%20wide.svg" class="img-fluid" alt="Responsive image" />
+          <a>
+            <img src="https://uploads-ssl.webflow.com/5f0d1d4f50b496667d7bd954/5f0d1d4fa053f0fa88f21342_portfolio%202%20-%20wide.svg" className="img-fluid" alt="Responsive image" />
           </a>
           <h4 className="text-center">
-            <a href="#">Project #3</a> <br /> <small>Animation</small>
+            <a>Project #3</a> <br /> <small>Animation</small>
           </h4>
         </div>
       </div>

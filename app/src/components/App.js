@@ -1,20 +1,26 @@
-import React, { useEffect } from "react"
-import Header from './Header'
-import Business from './Business'
-import HomePage from './Homepage/HomePage'
-import Projects from './Projects/Projects'
-import Contact from './Contact/Contact'
-
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Header";
+import Business from "./Business";
+import HomePage from "./Homepage/HomePage";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
     <>
-    <Header />
-    {/* //Just change below ONLY  */}
-    <Contact /> 
-    <Business/>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" exact component={Contact} />
+        </Switch>
+        {/* <Contact /> */}
+        <Business />
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
