@@ -16,7 +16,6 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
-        {/* <Contact /> */}
         <Business />
       </Router>
     </>

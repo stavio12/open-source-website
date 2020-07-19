@@ -8,28 +8,26 @@ function Contact() {
   const [message, setMessage] = useState();
 
   const date = new Date().toLocaleString();
-  console.log(date)
-
+  console.log(date);
 
   function messageUs(e) {
     e.preventDefault();
 
-
-
-    if (!(name && email && message)){
-      alert("Fill All Forms")
-    } else{
+    if (!(name && email && message)) {
+      alert("Fill All Forms");
+    } else {
       //Setting the messages to current date and time
-      firebase.database().ref("Messages/" + `${date}`).set({
-        Name: name,
-        Email: email,
-        Message: message,
-      });
-document.getElementById("Form").reset()    }
-
+      firebase
+        .database()
+        .ref("Messages/" + `${date}`)
+        .set({
+          Name: name,
+          Email: email,
+          Message: message,
+        });
+      document.getElementById("Form").reset();
+    }
   }
-
- 
 
   return (
     <>
